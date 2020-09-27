@@ -2,10 +2,10 @@
 var text = new Blotter.Text("Ýana Poli", {
     family: "'Times', serif",
     fill: "white",
-    size: 90,
-    paddingLeft:100,
+    size: 100,
+    paddingLeft:50,
     paddingRight:100,
-    paddingTop:50,
+    paddingTop:40,
     paddingBottom:0,
   });
   
@@ -23,5 +23,5 @@ var text = new Blotter.Text("Ýana Poli", {
   scope.appendTo(elem);
   document.addEventListener("mousemove",function 
   (move) {
-      material.uniforms.uVolatility.value = move.clientX * 0.00008;
+      material.uniforms.uVolatility.value = move.clientX * 0.0008;
   });

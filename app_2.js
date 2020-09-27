@@ -1,12 +1,12 @@
 
-var text = new Blotter.Text("Digital Producer from creative until launch", {
+var text = new Blotter.Text("Digital Producer", {
     family: "'Times', serif",
-    size: 40,
+    size: 50,
     fill: "white",
-    paddingLeft:40,
-    paddingRight:40,
+    paddingLeft:10,
+    paddingRight:10,
     paddingTop:10,
-    paddingBottom:0,
+    paddingBottom:10,
   });
   
   var material = new Blotter.LiquidDistortMaterial();
