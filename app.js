@@ -2,7 +2,7 @@
 var text = new Blotter.Text("Ýana Poli", {
     family: "'Times', serif",
     fill: "white",
-    size: 100,
+    size: 180,
     paddingLeft:50,
     paddingRight:100,
     paddingTop:40,
