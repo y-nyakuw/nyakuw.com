@@ -5,8 +5,8 @@ var text = new Blotter.Text("Ýana Poli", {
     size: 90,
     paddingLeft:100,
     paddingRight:100,
-    paddingTop:100,
-    paddingBottom:1,
+    paddingTop:50,
+    paddingBottom:0,
   });
   
   var material = new Blotter.LiquidDistortMaterial();

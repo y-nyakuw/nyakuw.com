@@ -1,11 +1,11 @@
 
-var text = new Blotter.Text("Digital Producer. IT & international brands. Project lead from creative scratch until launch", {
+var text = new Blotter.Text("Digital Producer from creative until launch", {
     family: "'Times', serif",
-    size: 25,
+    size: 40,
     fill: "white",
     paddingLeft:40,
     paddingRight:40,
-    paddingTop:40,
+    paddingTop:10,
     paddingBottom:0,
   });
   
