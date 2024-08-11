@@ -1,5 +1,5 @@
 
-var text = new Blotter.Text("Digital Producer", {
+var text = new Blotter.Text("creative lead", {
     family: "'Times', serif",
     size: 70,
     fill: "white",
@@ -11,7 +11,7 @@ var text = new Blotter.Text("Digital Producer", {
   
   var material = new Blotter.LiquidDistortMaterial();
   
-  material.uniforms.uSpeed.value = 0.2
+  material.uniforms.uSpeed.value = 0.4
 
   var blotter = new Blotter(material, {
     texts : text
